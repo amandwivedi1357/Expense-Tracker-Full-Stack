@@ -26,7 +26,7 @@ app.get('*',function(req,res){
 const server = () => {
     db()
     app.listen(PORT, () => {
-        console.log('listening to port:', PORT)
+        console.log('listening to port: ', PORT)
     })
 }
 
